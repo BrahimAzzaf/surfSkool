@@ -1,0 +1,13 @@
+/* Global styles for the app */
+
+/* Enable smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+    /* Offset for fixed header so anchors don't hide under it. Adjust if your header height changes. */
+    scroll-padding-top: 80px;
+}
+
+/* Small helper in case some sections need extra margin when targeted */
+:target {
+    scroll-margin-top: 80px;
+}
