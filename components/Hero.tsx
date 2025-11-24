@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
                   playsInline
                   className="w-full h-full object-cover opacity-90 transition-opacity duration-300 group-hover:opacity-100"
                 >
-                  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+                  <source src="https://www.pexels.com/download/video/2867912/" type="video/mp4" />
                 </video>
 
                 <div className="absolute inset-0 flex items-center justify-center bg-black/10 group-hover:bg-transparent transition-colors">
@@ -85,8 +85,7 @@ export const Hero: React.FC = () => {
               <p className="text-white/70 text-xs sm:text-sm mb-4">Join 2,000+ happy students.</p>
 
               <a href="#contact" className="block text-center w-full bg-teal-800 text-white py-2 rounded-xl font-medium border border-white/10">
-                Learn more
-              </a>
+Book a Session              </a>
             </div>
           </Reveal>
         </div>
@@ -122,7 +121,7 @@ export const Hero: React.FC = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative pt-[56.25%] bg-black rounded-lg overflow-hidden">
-                <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" controls autoPlay className="absolute inset-0 w-full h-full object-cover" />
+                <video src="https://www.pexels.com/download/video/2867912/" controls autoPlay className="absolute inset-0 w-full h-full object-cover" />
               </div>
               <button onClick={() => setIsVideoOpen(false)} aria-label="Close video" className="absolute -top-3 -right-3 bg-white p-2 rounded-full shadow-lg">
                 <X className="w-4 h-4 text-teal-900" />
